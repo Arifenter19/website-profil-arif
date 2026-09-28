@@ -35,6 +35,7 @@ menggunakan HTML, CSS, serta penggunaan Git dan GitHub.
 
 **Nama:** Arif  
 **Program Studi:** Teknologi Informasi  
+**Nim:** UG54B25002
 **Semester:** 3
 
 ---
