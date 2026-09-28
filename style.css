@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff0f6;
+    color: #3d2433;
+    line-height: 1.6;
+}
+
+/* HEADER */
+
+header {
+    position: relative;
+    background: linear-gradient(135deg, #ec4899, #f472b6);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* KONTEN */
+
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* CARD */
+
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(236, 72, 153, 0.12);
+    border: 1px solid #fbcfe8;
+}
+
+section h2 {
+    color: #db2777;
+    margin-bottom: 12px;
+}
+
+/* CARD PROFIL */
+
+.profil {
+    border-left: 6px solid #ec4899;
+}
+
+/* LIST */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #be185d;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+/* DEKORASI */
+
+body::before {
+    content: "✦";
+    position: fixed;
+    top: 120px;
+    left: 40px;
+    font-size: 35px;
+    color: #f472b6;
+    opacity: 0.7;
+}
+
+body::after {
+    content: "✧";
+    position: fixed;
+    top: 300px;
+    right: 45px;
+    font-size: 40px;
+    color: #ec4899;
+    opacity: 0.6;
+}
+
+header::before {
+    content: "✿";
+    position: absolute;
+    left: 12%;
+    top: 45px;
+    font-size: 35px;
+    color: white;
+    opacity: 0.7;
+}
+
+header::after {
+    content: "✿";
+    position: absolute;
+    right: 12%;
+    top: 45px;
+    font-size: 35px;
+    color: white;
+    opacity: 0.7;
+}
+
+section::after {
+    content: "♡";
+    float: right;
+    font-size: 25px;
+    color: #f9a8d4;
+}
