@@ -128,3 +128,17 @@ section::after {
     font-size: 25px;
     color: #f9a8d4;
 }
+
+.contact-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ec4899;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact-button:hover {
+    background: #be185d;
+}
